@@ -59,3 +59,5 @@ cd quirkshop-jlab-react && \
 mkdir ~/notebooks && \
   jupyter lab --watch --notebook-dir=~/notebooks
 ```
+
+To enable Jupyerlab extensions, follow the instructions [here](https://jupyterlab.readthedocs.io/en/stable/user/extensions.html)
