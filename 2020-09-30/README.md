@@ -16,7 +16,12 @@ conda activate quirkshop-jlab2
 ```
 
 ```bash
-# Clone and build jupyterlab.
+# Install Jupyterlab
+conda install -c conda-forge jupyterlab==2.2.8 jupyter_contrib_nbextensions -y
+```
+
+```bash
+# Or Clone and build jupyterlab from source.
 git clone https://github.com/jupyterlab/jupyterlab \
     -b v2.2.8 \
     --depth 1 && \
