@@ -15,6 +15,8 @@ conda create -y \
 conda activate quirkshop-jlab2
 ```
 
+* NOTE: Make sure to have `node>=v10.13.0` enabled in your terminals
+
 ```bash
 # Install Jupyterlab
 conda install -c conda-forge jupyterlab==2.2.8 jupyter_contrib_nbextensions -y

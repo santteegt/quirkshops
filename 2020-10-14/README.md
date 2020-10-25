@@ -39,8 +39,15 @@ conda create -y \
 conda activate quirkshop-dev
 ```
 
+* NOTE: Make sure to have `node>=v10.13.0` enabled in your terminals
+
 ```bash
-# Clone and build jupyterlab.
+# Install Jupyterlab & contrib-nbextensions
+conda install -c conda-forge/label/jupyterlab_rc -c conda-forge/label/jupyterlab_server_rc -c conda-forge jupyterlab=3
+```
+
+```bash
+# Or Clone and build jupyterlab from source.
 #    -b v3.0.0rc4 \
 git clone https://github.com/jupyterlab/jupyterlab \
     --depth 1 && \
